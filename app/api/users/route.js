@@ -29,5 +29,3 @@ router.get(getUsers);
 export async function GET(req, ctx) {
   return router.run(req, ctx);
 }
-
-export const runtime = "edge";
